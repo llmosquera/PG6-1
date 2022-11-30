@@ -13,7 +13,7 @@
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-    </script>
+        </script>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/102/102665.png">
 
     <title>Sitio Web de Ventas - MARY'S</title>
@@ -93,7 +93,7 @@
                                 <a class="dropdown-item text-dark" href="{{ url_for('MA') }}">Camisas</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-dark" href="#">Pantalones</a>
+                                <a class="dropdown-item text-dark" href="{{ url_for('MG') }}">Pantalones</a>
                             </li>
                             <li>
                                 <a class="dropdown-item text-dark" href="{{ url_for('LM') }}">Zapatos</a>
@@ -115,7 +115,7 @@
                     </li>
                     <!--Seccion Nosotros-->
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#sobrenosotros">Nosotros</a>
+                        <a class="nav-link text-dark" href="{{ url_for('RG') }}">SkinCare</a>
                     </li>
 
                 </ul>
@@ -127,18 +127,21 @@
     <!--EDITAR DE AQUI PARA ABAJO-->
     <!--CAMISAS-->
 
-    
-    
-    <section class="h-100" style="background-color: #eee;">
+
+
+    <section class="h-100" style="background-color: #fdf4f4;">
         <div class="container h-100 py-5">
             <div class="row d-flex justify-content-center align-items-center h-100">
 
                 <!--Conjunto de cards-->
-                <div class="col-10">
+                <div class="col-10 centrado">
+                    <center>
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h4 class="fw-normal mb-0 text-black">CAMISAS</h4>
+                        </div>
+                    </center>
 
-                    <div class="d-flex justify-content-between align-items-center mb-4">
-                        <h4 class="fw-normal mb-0 text-black">CAMISAS</h4>
-                    </div>
+
                     <!--1º cards-->
                     <div class="card rounded-3 mb-4">
                         <div class="card-body p-4">
@@ -197,9 +200,9 @@
                                     <h2>Color:</h2>
                                     <label class="radio-inline">
                                         <input type="radio" name="movimiento" value="Azul Marino">Azul Marino</label>
-                                     <label class="radio-inline">
+                                    <label class="radio-inline">
                                         <input type="radio" name="movimiento" value="Negro">Negro</label>
-                                     <label class="radio-inline">
+                                    <label class="radio-inline">
                                         <input type="radio" name="movimiento" value="Azul">Azul</label>
                                 </div>
 
@@ -269,7 +272,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-lg-3 col-xl-3">
-                                    <p class="lead fw-normal mb-2">Wrangler Authentics - Camisa de forro polar de manga larga para hombre</p>
+                                    <p class="lead fw-normal mb-2">Wrangler Authentics - Camisa de forro polar de manga
+                                        larga para hombre</p>
                                     <div class="dropdown mb-4">
                                         <button class="btn btn-secondary dropdown-toggle" type="button"
                                             id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -283,11 +287,14 @@
                                     </div>
                                     <h2>Color:</h2>
                                     <label class="radio-inline">
-                                        <input type="radio" name="movimiento" value="Birch Buffalo">Birch Buffalo</label>
-                                     <label class="radio-inline">
-                                        <input type="radio" name="movimiento" value="Tela escocesa Blue Buffalo">Tela escocesa Blue Buffalo</label>
-                                     <label class="radio-inline">
-                                        <input type="radio" name="movimiento" value="Tela escocesa Red Buffalo">Tela escocesa Red Buffalo</label>
+                                        <input type="radio" name="movimiento" value="Birch Buffalo">Birch
+                                        Buffalo</label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="movimiento" value="Tela escocesa Blue Buffalo">Tela
+                                        escocesa Blue Buffalo</label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="movimiento" value="Tela escocesa Red Buffalo">Tela
+                                        escocesa Red Buffalo</label>
                                 </div>
 
                                 <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
@@ -355,7 +362,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-lg-3 col-xl-3">
-                                    <p class="lead fw-normal mb-2">Blusa de satén para mujer, camisa de seda satinada de manga larga a la moda, camisa informal para trabajo y oficina</p>
+                                    <p class="lead fw-normal mb-2">Blusa de satén para mujer, camisa de seda satinada de
+                                        manga larga a la moda, camisa informal para trabajo y oficina</p>
                                     <div class="dropdown mb-4">
                                         <button class="btn btn-secondary dropdown-toggle" type="button"
                                             id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -370,9 +378,9 @@
                                     <h2>Color:</h2>
                                     <label class="radio-inline">
                                         <input type="radio" name="movimiento" value="Champán">Champán</label>
-                                     <label class="radio-inline">
+                                    <label class="radio-inline">
                                         <input type="radio" name="movimiento" value="Gris">Gris</label>
-                                     <label class="radio-inline">
+                                    <label class="radio-inline">
                                         <input type="radio" name="movimiento" value="Blanco">Blanco</label>
                                 </div>
 
@@ -399,7 +407,7 @@
                             </div>
                         </div>
                     </div>
-                       <!--4º cards-->
+                    <!--4º cards-->
                     <div class="card rounded-3 mb-4">
                         <div class="card-body p-4">
                             <div class="row d-flex justify-content-between align-items-center">
@@ -441,7 +449,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-lg-3 col-xl-3">
-                                    <p class="lead fw-normal mb-2">POLO RALPH LAUREN Camisa de botones de manga larga Oxford de ajuste clásico para mujer</p>
+                                    <p class="lead fw-normal mb-2">POLO RALPH LAUREN Camisa de botones de manga larga
+                                        Oxford de ajuste clásico para mujer</p>
                                     <div class="dropdown mb-4">
                                         <button class="btn btn-secondary dropdown-toggle" type="button"
                                             id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -456,9 +465,9 @@
                                     <h2>Color:</h2>
                                     <label class="radio-inline">
                                         <input type="radio" name="movimiento" value="Rosa">Rosa</label>
-                                     <label class="radio-inline">
+                                    <label class="radio-inline">
                                         <input type="radio" name="movimiento" value="Azul" required>Azul</label>
-                                     <label class="radio-inline">
+                                    <label class="radio-inline">
                                         <input type="radio" name="movimiento" value="Blanco" checked>Blanco</label>
                                 </div>
 

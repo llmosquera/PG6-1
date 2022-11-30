@@ -33,27 +33,17 @@ def MA():
 def SS():
     return render_template("SS.html")
 
+# Define la ruta principal Mary Guarnizo
+@app.route('/MG')
+# Función para llamar a la página index.html
+def MG():
+    return render_template("MG.html")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Define la ruta principal Rachel Garces
+@app.route('/RG')
+# Función para llamar a la página index.html
+def RG():
+    return render_template("RG.html")
 
 
 # main del programa
