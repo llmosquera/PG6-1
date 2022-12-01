@@ -127,36 +127,36 @@
     <!--EDITAR DE AQUI PARA ABAJO-->
     <!--CAMISAS-->
 
-
-
+ <!--Contenido-->
     <section class="h-100" style="background-color: #fdf4f4;">
         <div class="container h-100 py-5">
             <div class="row d-flex justify-content-center align-items-center h-100">
 
                 <!--Conjunto de cards-->
                 <div class="col-10 centrado">
-                    <center>
-                        <div class="d-flex justify-content-between align-items-center mb-4">
-                            <h4 class="fw-normal mb-0 text-black">CAMISAS</h4>
-                        </div>
-                    </center>
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h4 class="fw-normal mb-0 text-black">CAMISAS</h4>
+                    </div>
 
 
                     <!--1º cards-->
-                    <div class="card rounded-3 mb-4">
-                        <div class="card-body p-4">
+                    <div class="card rounded-3 mb-4"><!--Redondear cards-->
+                        <div class="card-body p-4"><!--p-4 Acolchado-->
                             <div class="row d-flex justify-content-between align-items-center">
+                                <!--Columna 1: Carrusel-->
                                 <div class="col-md-4 col-lg-3 col-xl-3">
-                                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-indicators">
-                                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            <!--Botones indicadores-->
+                                            <button type="button" data-bs-target="#carouselExampleCaptions1"
                                                 data-bs-slide-to="0" class="active" aria-current="true"
                                                 aria-label="Slide 1"></button>
-                                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            <button type="button" data-bs-target="#carouselExampleCaptions1"
                                                 data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            <button type="button" data-bs-target="#carouselExampleCaptions1"
                                                 data-bs-slide-to="2" aria-label="Slide 3"></button>
                                         </div>
+                                        <!--carrusel de Imagenes-->
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
                                                 <img src="https://m.media-amazon.com/images/I/81kxZ-LaebL._AC_UL1500_.jpg"
@@ -171,21 +171,24 @@
                                                     class="d-block w-100" alt="..." height="300px">
                                             </div>
                                         </div>
+                                        <!--Botones indicadores de atrás y siguiente-->
                                         <button class="carousel-control-prev" type="button"
-                                            data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                            data-bs-target="#carouselExampleCaptions1" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
                                         <button class="carousel-control-next" type="button"
-                                            data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                            data-bs-target="#carouselExampleCaptions1" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
                                     </div>
                                 </div>
+                                <!--Columna 2: Informacion/talla y color-->
                                 <div class="col-md-3 col-lg-3 col-xl-3">
                                     <p class="lead fw-normal mb-2">Alex Vando Camisas de vestir para hombre Camisa de
                                         manga larga de ajuste regular para hombre</p>
+                                    <!--Talla-->
                                     <div class="dropdown mb-4">
                                         <button class="btn btn-secondary dropdown-toggle" type="button"
                                             id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -197,6 +200,7 @@
                                             <li><a class="dropdown-item" href="#">L</a></li>
                                         </ul>
                                     </div>
+                                    <!--Color-->
                                     <h2>Color:</h2>
                                     <label class="radio-inline">
                                         <input type="radio" name="movimiento" value="Azul Marino">Azul Marino</label>
@@ -205,18 +209,17 @@
                                     <label class="radio-inline">
                                         <input type="radio" name="movimiento" value="Azul">Azul</label>
                                 </div>
-
+                                <!--Columna 3: Cantidad-->
                                 <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
                                     <label class="etiqueta" for="nombre" id="label1">Cantidad:</label>
                                     <input id="form1" min="0" name="quantity" value="0" type="number"
                                         class="form-control form-control-sm" />
-
                                 </div>
+                                <!--Columna 4: Precio-->
                                 <div class="col-md-3 col-lg-2 col-xl-2">
                                     <h5 class="mb-0">$39.00</h5>
                                 </div>
-
-
+                                <!--Columna 5: Boton carrito-->
                                 <div class="col-md-3 col-lg-3 col-xl-2">
                                     <button type="button" class="btn btn-outline-warning btn-lg ms-3"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="100px" height="100px"
@@ -225,7 +228,6 @@
                                                 d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                                         </svg></button>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -235,14 +237,14 @@
                         <div class="card-body p-4">
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="col-md-4 col-lg-3 col-xl-3">
-                                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-indicators">
-                                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            <button type="button" data-bs-target="#carouselExampleCaptions2"
                                                 data-bs-slide-to="0" class="active" aria-current="true"
                                                 aria-label="Slide 1"></button>
-                                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            <button type="button" data-bs-target="#carouselExampleCaptions2"
                                                 data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            <button type="button" data-bs-target="#carouselExampleCaptions2"
                                                 data-bs-slide-to="2" aria-label="Slide 3"></button>
                                         </div>
                                         <div class="carousel-inner">
@@ -260,12 +262,12 @@
                                             </div>
                                         </div>
                                         <button class="carousel-control-prev" type="button"
-                                            data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                            data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
                                         <button class="carousel-control-next" type="button"
-                                            data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                            data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -327,14 +329,14 @@
                         <div class="card-body p-4">
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="col-md-4 col-lg-3 col-xl-3">
-                                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-indicators">
-                                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            <button type="button" data-bs-target="#carouselExampleCaptions3"
                                                 data-bs-slide-to="0" class="active" aria-current="true"
                                                 aria-label="Slide 1"></button>
-                                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            <button type="button" data-bs-target="#carouselExampleCaptions3"
                                                 data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            <button type="button" data-bs-target="#carouselExampleCaptions3"
                                                 data-bs-slide-to="2" aria-label="Slide 3"></button>
                                         </div>
                                         <div class="carousel-inner">
@@ -352,11 +354,11 @@
                                             </div>
                                         </div>
                                         <button class="carousel-control-prev" type="button"
-                                            data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                            data-bs-target="#carouselExampleCaptions3" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         </button>
                                         <button class="carousel-control-next" type="button"
-                                            data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                            data-bs-target="#carouselExampleCaptions3" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         </button>
                                     </div>
@@ -383,18 +385,14 @@
                                     <label class="radio-inline">
                                         <input type="radio" name="movimiento" value="Blanco">Blanco</label>
                                 </div>
-
                                 <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
                                     <label class="etiqueta" for="nombre" id="label1">Cantidad:</label>
                                     <input id="form1" min="0" name="quantity" value="0" type="number"
                                         class="form-control form-control-sm" />
-
                                 </div>
                                 <div class="col-md-3 col-lg-2 col-xl-2">
                                     <h5 class="mb-0">$19.00</h5>
                                 </div>
-
-
                                 <div class="col-md-3 col-lg-3 col-xl-2">
                                     <button type="button" class="btn btn-outline-warning btn-lg ms-3"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="100px" height="100px"
@@ -403,7 +401,6 @@
                                                 d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                                         </svg></button>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -412,14 +409,14 @@
                         <div class="card-body p-4">
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="col-md-4 col-lg-3 col-xl-3">
-                                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carouselExampleCaptions4" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-indicators">
-                                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            <button type="button" data-bs-target="#carouselExampleCaptions4"
                                                 data-bs-slide-to="0" class="active" aria-current="true"
                                                 aria-label="Slide 1"></button>
-                                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            <button type="button" data-bs-target="#carouselExampleCaptions4"
                                                 data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                            <button type="button" data-bs-target="#carouselExampleCaptions4"
                                                 data-bs-slide-to="2" aria-label="Slide 3"></button>
                                         </div>
                                         <div class="carousel-inner">
@@ -437,12 +434,12 @@
                                             </div>
                                         </div>
                                         <button class="carousel-control-prev" type="button"
-                                            data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                            data-bs-target="#carouselExampleCaptions4" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
                                         <button class="carousel-control-next" type="button"
-                                            data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                            data-bs-target="#carouselExampleCaptions4" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Next</span>
                                         </button>
@@ -480,8 +477,6 @@
                                 <div class="col-md-3 col-lg-2 col-xl-2">
                                     <h5 class="mb-0">$35.00</h5>
                                 </div>
-
-
                                 <div class="col-md-3 col-lg-3 col-xl-2">
                                     <button type="button" class="btn btn-outline-warning btn-lg ms-3"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="100px" height="100px"
@@ -494,9 +489,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </div>
