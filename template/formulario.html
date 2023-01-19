@@ -80,56 +80,69 @@
     <!--NO EDITAR-->
 
     <!--EDITAR DE AQUI PARA ABAJO-->
-    <!-- Página Header-->
-    <header class="masthead fondo"
-        style="background-image: url('https://ecuador.unir.net/wp-content/uploads/sites/8/2021/01/Moda_8_reducida-e1644396456452.jpg')">
-        <div class="container position-relative px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7 justify-content-center">
+    <div class="container">
+        <div class="card">
 
-                    <div class="site-heading">
-                        <h1 id="titu2">Mary's Shop</h1>
-                        <span class="subheading" id="titu2">Comienza tu día con unos zapatos perfectos</span>
-                    </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <!--Cabezera de nuestro formulario-->
+                    <h3 class="panel-title">Contáctanos</h3>
                 </div>
-            </div>
-        </div>
-    </header>
-    <!-- Sección sobre nosotros-->
-    <section class="vh-500" style="background-color: #fdf4f4;" id="blockquote">
-        <div class="container py-5 h-500">
-            <div class="row d-flex justify-content-center align-items-center h-100">
-                <div class="col col-lg-8 col-xl-7">
-                    <div class="card" style="border-radius: 15px;">
-                        <div class="card-body p-5">
-
-                            <div class="text-center mb-4 pb-2">
-                                <img src="../static/images/carrusel/rachel.jpg" alt="Bulb" height="300">
+                <div class="panel-body">
+                    <form class="form-horizontal" id="signupForm">
+                        <!--Solicitamos el nombre al usuario-->
+                        <div class="form-group">
+                            <label for="fullname" class="col-sm-2 control-label">Nombre</label>
+                            <div class="col-sm-10">
+                                <input type="text" id="fullname" name="fullname" class="form-control">
                             </div>
-
-                            <figure class="text-center mb-0">
-                                <blockquote class="blockquote">
-                                    <p class="pb-3">
-                                        <i class="fas fa-quote-left fa-xs text-primary"></i>
-                                    <h2 id="sobrenosotros">Fundadora Empresarial</h2>
-                                    <span class="lead font-italic">Rachel Garces (born August 08, 1999) is an
-                                        American media personality, socialite, and businesswoman. She starred in the E!
-                                        reality television series Keeping Up with the Kardashians from 2007 to 2021 and
-                                        is the founder and owner of cosmetic company Kylie Cosmetics. She is the
-                                        third-most-followed person on Instagram.</span>
-                                    <i class="fas fa-quote-right fa-xs text-primary"></i>
-                                    </p>
-                                </blockquote>
-                                <figcaption class="blockquote-footer mb-0">
-                                    Mary's Shop
-                                </figcaption>
-                            </figure>
                         </div>
-                    </div>
+                        <!--Solicitamos el email al usuario-->
+                        <div class="form-group">
+                            <label for="email" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="text" id="email" name="email" class="form-control">
+                            </div>
+                        </div>
+
+                        <!--Solicitamos el mensaje al usuario-->
+                        <div class="form-group">
+                            <label for="comments" class="col-sm-2 control-label">Mensaje</label>
+                            <div class="col-sm-10">
+                                <textarea name="comments" id="comments" cols="40" rows="5" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <!--Solicitamos que el usuario escriba el captcha-->
+                        <div class="form-group">
+                            <label for="capcha" class="col-sm-2 control-label">Captcha</label>
+                            <div class="col-sm-3">
+                                <img src="https://www.pandasecurity.com/es/mediacenter/src/uploads/2014/09/evitar-captcha.jpg"
+                                    alt="" width="200px" height="50px"><br><br>
+                                <input type="text" id="capcha" name="capcha" class="form-control">
+                            </div>
+                        </div>
+                        <!--Solicitamos que el usuario acepte los terminos y condiciones-->
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label> <input type="checkbox" id="agree" name="agree" value="agree">Acepto terminos y condiciones--</label>
+                                </div>
+                                <em id="agree-error" class="help-block"></em>
+                            </div>
+                        </div>
+                        <br>
+                        <!--Boton de enviar mensaje-->
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <input type="submit" class="btn btn-primary" value="Enviar Mensaje" />
+                            </div>
+                        </div>
+    
+                    </form>
                 </div>
             </div>
-        </div>
-    </section>
+        </div>  
+    </div>
 
     <!--EDITAR DE AQUI PARA ARRIBA-->
 

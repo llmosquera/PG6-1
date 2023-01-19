@@ -46,6 +46,12 @@ def RG():
     return render_template("RG.html")
 
 
+# Define la ruta principal formulario
+@app.route('/formulario')
+# Función para llamar a la página index.html
+def formulario():
+    return render_template("formulario.html")
+
 # main del programa
 if __name__ == "__main__":
     # Iniciamos la apicación en modo debug
