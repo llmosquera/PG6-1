@@ -40,26 +40,7 @@
         $(this).css("background-color", "white");
         $(this).css("border-radius", "0px");
     });
-    $("#clic").click(function () {
-      $("#panel").fadeToggle(300);
-      $(this).toggleClass("cerrado");
-  });
-
-  $("#clic1").click(function () {
-      $("#panel1").fadeToggle(300);
-      $(this).toggleClass("cerrado");
-  });
-  $("#clic2").click(function () {
-      $("#panel2").fadeToggle(300);
-      $(this).toggleClass("cerrado");
-  });
-
-  $('.zoom').width(150)
-      .height(200).hover(function () {
-          $(this).addClass('transition');
-      }, function () {
-          $(this).removeClass('transition');
-      });
+    
      });
   </script>
   <style>
@@ -70,63 +51,7 @@
   }
   #dropdownMenuButton1 {
     background-color: blue;
-}
-
-  p {
-    font-weight: bold;
-}
-
-#panel,
-#clic {
-    padding: 5px;
-    text-align: center;
-    background-color: #e5eecc;
-    border: solid 1px #c3c3c3;
-}
-
-#panel {
-    padding: 50px;
-    display: none;
-}
-
-#panel1,
-#clic {
-    padding: 5px;
-    text-align: center;
-    background-color: #e5eecc;
-    border: solid 1px #c3c3c3;
-}
-
-#panel1 {
-    padding: 50px;
-    display: none;
-}
-
-#panel2,
-#clic {
-    padding: 5px;
-    text-align: center;
-    background-color: #e5eecc;
-    border: solid 1px #c3c3c3;
-}
-
-#panel2 {
-    padding: 50px;
-    display: none;
-}
-
-img.zoom {
-
-    width: 250px;
-    height: 150px;
-}
-
-.transition {
-    -webkit-transform: scale(1.8);
-    -moz-transform: scale(1.8);
-    -o-transform: scale(1.8);
-    transform: scale(1.8);
-}
+  }
   </style>
 </head>
 
@@ -199,8 +124,8 @@ img.zoom {
     <div class="container">
       <div class="row vh-100 justify-content-around align-items-center">
         <div class="col-auto info">
-          <p class="lead fw-normal mb-2" id="cli">Sandalias de moda para verano 2022</p>
-          <p class="lead fw-normal mb-2" id="panel">Cambiamos de temporada, es momento de renovar nuestros armarios. Ya están llegando las nuevas tendencias en
+          <h1 >Sandalias de moda para verano 2022</h1>
+          <p >Cambiamos de temporada, es momento de renovar nuestros armarios. Ya están llegando las nuevas tendencias en
             sandalias de moda de primavera-verano 2022, y nos están gustando. <br> Los diseñadores y las grandes marcas
             son fuente de inspiración para los fabricantes low cost o de bajo precio. Muchas de estás marcas han
             percibido que
@@ -215,8 +140,8 @@ img.zoom {
               class="card-img-top" alt="..." height="" /></div>
         </div>
         <div class="col-auto info">
-          <p class="lead fw-normal mb-2" id="cli1">Seleccionamos las mejores sandalias para caminar 2022</p>
-          <p  class="lead fw-normal mb-2" id="panel1">Nos estamos preparando para el buen tiempo. Tienes que tener listas tus sandalias de senderismo, tu
+          <h1>Seleccionamos las mejores sandalias para caminar 2022</h1>
+          <p  >Nos estamos preparando para el buen tiempo. Tienes que tener listas tus sandalias de senderismo, tu
             mochila, tu tienda. Este calzado para andar sirve tanto para caminar con el como para descansar los pies
             después de un largo día recorriendo caminos,senderos de montaña, valles… , en definitiva, largas jornadas en
             la naturaleza.</p>
@@ -274,7 +199,8 @@ img.zoom {
               <div class="card" style="width: 18rem;">
                 <div>
                   <img src="https://sandaliasmujer.online/wp-content/uploads/2021/09/image-24.png"  
-                alt="..." height="300px" width="100px" class="zoom">
+                  class="card-img-top"
+                  alt="Salsa Caleña" height="200px"> >
 
                 </div>
                 
